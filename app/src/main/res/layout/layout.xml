@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8FF">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/current_location_yogyakarta_indonesia"
+        android:textAlignment="center"
+        android:textColor="#030C37"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <SearchView
+        android:id="@+id/svSearch"
+        android:layout_width="317dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:autofillHints="Search for Hospitals"
+        android:background="@drawable/sv_border"
+        android:padding="10dp"
+        tools:visibility="visible" >
+
+
+    </SearchView>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="girlimg"
+        app:srcCompat="@mipmap/ic_girl" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:clickable="false"
+        android:focusable="auto"
+        android:scrollbars="horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="401dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/ic_banner"
+        android:importantForAccessibility="no"
+        android:elevation="1dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="28dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="10dp"
+        app:layout_anchorGravity="end|top"
+        app:srcCompat="@mipmap/ic_alert" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">uiCovid</string>
+    <string name="difficult_breathing">Difficult Breathing</string>
+    <string name="fever">Fever</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="temprature">Temprature</string>
+    <string name="current_location_yogyakarta_indonesia">Current Location Yogyakarta, Indonesia</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="heartdscription">Heart Rate Pulse
+        is very important physiological indicato</string>
+
+</resources>
